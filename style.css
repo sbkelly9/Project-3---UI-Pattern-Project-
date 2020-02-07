@@ -1,0 +1,102 @@
+
+h1 {
+	text-align: center;
+	color: white;
+}
+body {
+	background: black;
+	margin-left: : 100px;
+	margin-right: 100px;
+}
+
+.char {
+	flex-direction: row;
+	justify-content: center;
+	display: flex;
+    min-width: 200vh;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    max-width: 250px;
+    width: 400%;
+    border-spacing: 50px;
+	}
+
+
+#luke {
+	background-image: url("Star-Wars-Pictures/Luke.jpg");
+}
+
+#leia {
+	background-image: url("Star-Wars-Pictures/Princess Leia.png");
+}
+
+#han {
+	background-image: url("Star-Wars-Pictures/Han Solo.jpg");
+}
+
+#darth {
+	background-image: url("Star-Wars-Pictures/Darth Vadar.jpg");
+}
+
+#yoda {
+	background-image: url("Star-Wars-Pictures/Yoda.jpeg");
+}
+
+#largelogo {
+	background-image: url("Star-Wars-Pictures/starwars-logo.png");
+}
+
+#r2d2 {
+	background-image: url("Star-Wars-Pictures/R2D2.jpg");
+}
+
+#boba {
+	background-image: url("Star-Wars-Pictures/Boba Fett.jpeg")
+}
+
+#chewy {
+	background-image: url("Star-Wars-Pictures/Chewbacca.jpg");
+}
+
+#jabba {
+	background-image: url("Star-Wars-Pictures/Jabba The Hutt.jpeg");
+}
+
+#c3po {
+	background-image: url("Star-Wars-Pictures/C3PO.jpg");
+}
+
+
+
+.container {
+	width: 300px;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	float: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 0;
+	margin: 2px;
+}
+
+.swlogo {
+	width: 700px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-position: center;
+	border-spacing: 100px;
+	background-size: cover;
+	float: center;
+	flex-direction: row;
+	align-content: center;
+
+}
