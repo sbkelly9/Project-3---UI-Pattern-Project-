@@ -1,28 +1,27 @@
 
 h1 {
 	text-align: center;
-	color: white;
+	color: #fdfdfd;
+	font-family: 'Coustard', serif;
 }
+
 body {
-	background: black;
-	margin-left: : 100px;
-	margin-right: 100px;
+	background-image: url("Star-Wars-Pictures/Stars-background.png");
 }
 
 .char {
 	flex-direction: row;
 	justify-content: center;
 	display: flex;
-    min-width: 200vh;
+    min-width: 100vh;
     margin: 0px auto;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
-    max-width: 250px;
-    width: 400%;
+    max-width: 100px;
+    width: 95%;
     border-spacing: 50px;
-	}
-
+}
 
 #luke {
 	background-image: url("Star-Wars-Pictures/Luke.jpg");
@@ -68,14 +67,12 @@ body {
 	background-image: url("Star-Wars-Pictures/C3PO.jpg");
 }
 
-
-
 .container {
-	width: 300px;
+	width: 600px;
 	height: 200px;
 	background-position: center;
 	background-size: cover;
-	color: white;
+	color: #fdfdfd;
 	float: center;
 	display: flex;
 	flex-direction: row;
@@ -98,5 +95,26 @@ body {
 	float: center;
 	flex-direction: row;
 	align-content: center;
+}
 
+@media screen and (max-width: 576px){
+    .small-row{
+        display: none;
+    }
+    .small-body{
+        background-image: none;
+    }
+}
+
+#content > div {
+	border-bottom: 1px solid #f85f73;
+	border-radius: 2px;
+	padding: 5px 0;
+	margin: 0 20px;
+}
+
+.modal {
+	background: #9896f1;
+	color: #fdfdfd;
+	text-align: center;
 }
