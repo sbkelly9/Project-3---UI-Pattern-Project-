@@ -68,8 +68,8 @@ body {
 }
 
 .container {
-	width: 600px;
-	height: 200px;
+	width: 400px;
+	height: 400px;
 	background-position: center;
 	background-size: cover;
 	color: #fdfdfd;
@@ -118,3 +118,10 @@ body {
 	color: #fdfdfd;
 	text-align: center;
 }
+
+
+
+
+
+
+
