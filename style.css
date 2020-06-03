@@ -97,14 +97,12 @@ body {
 	align-content: center;
 }
 
-@media all and (max-width: 576px){
-    .small-row{
-        display: none;
+@media screen and (max-width: 845px) {       
+
+    .char img {
+        height: 300px;
+        width: 350px;
     }
-    .small-body{
-        background-image: none;
-    }
-}
 
 #content > div {
 	border-bottom: 1px solid #f85f73;
@@ -117,6 +115,8 @@ body {
 	background: #9896f1;
 	color: #fdfdfd;
 	text-align: center;
+}
+
 }
 
 
