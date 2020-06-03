@@ -100,8 +100,9 @@ body {
 @media screen and (max-width: 845px) {       
 
     .char img {
-        height: 300px;
-        width: 350px;
+		display: block;
+		width: 100%;
+		height: auto;
     }
 
 #content > div {
