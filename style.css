@@ -99,7 +99,7 @@ body {
 
 @media screen and (max-width: 350px) {       
 
-    .char img {
+    .char {
 		display: block;
 		width: 100%;
 		height: auto;
