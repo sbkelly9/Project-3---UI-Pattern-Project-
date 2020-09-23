@@ -97,28 +97,130 @@ body {
 	align-content: center;
 }
 
-@media screen and (max-width: 350px) {       
-
-    .char {
+@media only screen and (max-device-width: 667px) {
+  
+	.container img {
 		display: block;
 		width: 100%;
 		height: auto;
-    }
+	}
 
-#content > div {
-	border-bottom: 1px solid #f85f73;
-	border-radius: 2px;
-	padding: 5px 0;
-	margin: 0 20px;
+	.container {
+		display: block;
+		/* grid-template-rows: 200px 200px 200px; */
+		grid-template-columns: 200px;
+		padding-left: 100px;
+		padding-right: 100px;
+		background-color: white;
+		justify-content: center;
+	  }
+	  
 }
 
-.modal {
-	background: #9896f1;
-	color: #fdfdfd;
-	text-align: center;
-}
+@media only screen and (max-device-width: 600px) {
+  
+	.char img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.char {
+		display: block;
+		/* grid-template-rows: 200px 200px 200px; */
+		grid-template-columns: 200px;
+		padding-left: 100px;
+		padding-right: 100px;
+		background-color: white;
+		justify-content: center;
+	  }
+	  
+	  #luke {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+	  
+	  #leia {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+	  
+	  #han {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+	  
+	  #darth {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+	  
+	  #yoda {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+
+	  #r2d2 {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+
+	  #boba {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+
+	  #chewy {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+
+	  #jaba {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+
+	  #c3po {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  }
+
+	  /* #swlogo {
+		padding: 10px;
+		grid-row: unset;
+		grid-column: 1 / span-size 1;
+	  } */
 
 }
+/* @media screen and (max-width: 992px){
+  .column {
+    flex: 50%;
+    padding: 40px;
+  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swlogo {
+	background-size: cover;
+	background-position: center;
+}
+	
+.char {
+	display: wrap;
+}
+} */
 
 
 

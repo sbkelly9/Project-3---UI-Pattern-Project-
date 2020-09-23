@@ -1,4 +1,4 @@
-const baseUrl = 'https://swapi.co/api/people'
+const baseUrl = 'https://swapi.dev/api/people'
 
 function fetchCharacter(event) {
 	const id = event.target.getAttribute("data-charid")
@@ -10,7 +10,7 @@ function fetchCharacter(event) {
 			response.then(characterInfo => {
 				event.preventDefault();
 				this.blur(); // Manually remove focus from clicked link.
-
+				console.log(characterInfo)
 				const html = $('#ex1')
 				const elementIdArray = ["name", "height", "mass", "hair_color", "skin_color", "eye_color", "birth_year", "gender"]
 
