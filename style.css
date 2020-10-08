@@ -202,25 +202,14 @@ body {
 	  } */
 
 }
-/* @media screen and (max-width: 992px){
-  .column {
-    flex: 50%;
-    padding: 40px;
-  }
-.row {
-  display: flex;
-  flex-wrap: wrap;
+@media screen and (max-width: 992px){
+.char {
+	display: flex;
+	justify-content: left;
+	background-color: black;
 }
 
-.swlogo {
-	background-size: cover;
-	background-position: center;
 }
-	
-.char {
-	display: wrap;
-}
-} */
 
 
 
