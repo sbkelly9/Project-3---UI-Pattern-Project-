@@ -1,4 +1,4 @@
-const baseUrl = 'https://swapi.dev/api/people'
+const baseUrl = 'https://cors-anywhere.herokuapp.com/https://swapi.dev/api/people'
 
 function fetchCharacter(event) {
 	const id = event.target.getAttribute("data-charid")
